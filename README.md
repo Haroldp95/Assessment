@@ -15,6 +15,9 @@ The following are the key project files and directories:
     Use 'php artisan schedule:work' To create a random post every 10 minutes.
     use: 'localhost/register' to make an account in order to log in.
 
+    use: 'php artisan test --filter CreatePostTest::it_creates_a_new_post'
+    for the unit test.
+
 ## Project Information
 
 -   **Name**: laravel/laravel
