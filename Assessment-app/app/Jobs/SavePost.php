@@ -25,7 +25,7 @@ class SavePost implements ShouldQueue
         // Fetch one post
         $post = $response->json(); 
 
-        // Check if the post with the same ID already exists in your database
+        // Check if the post with the same ID already exists in the database
         $existingPost = Post::where('user_id', $post['id'])->first();
 
         // If the post doesn't exist, it saves the post to the database
