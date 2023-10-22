@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: rgb(36, 36, 48);
+}
+
+h1,
+h2 {
+    font-size: 26px;
+    margin: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.dark-input {
+    background-color: rgb(36, 36, 48);
+}
+
+.create-post {
+    margin-top: 64px;
+}
+
+td,
+th,
+input,
+button {
+    margin: 8px;
+    color: white;
+
+    font-weight: 700;
+    padding: 16px;
+    border: solid 1px rgb(98, 96, 104);
+    border-radius: 3px;
+    background-color: rgb(76, 73, 84);
+}
+
+th {
+    text-transform: uppercase;
+}
+
+input,
+button {
+    width: 100%;
+}
