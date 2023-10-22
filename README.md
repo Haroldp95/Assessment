@@ -1,6 +1,8 @@
 # Assessment# 
 Laravel Project README
 
+Vender and node-modules NOT included.
+
 Project Files
 The following are the key project files and directories:
 
